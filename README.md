@@ -12,7 +12,7 @@ Step 1: Run the mvn clean package command or run Maven clean package goals in yo
 Step 2: Step 1 will create an executable JAR file of your Spring Boot application and put it within the target folder.
 
 Step 3: Run the executable JAR, using the following Java command.
-java -jar target/<yourjarame>.jar
+java -jar target/demo-0.0.1-SNAPSHOT.jar
 
 # Testing the Service
 Using Postman call the endpoint http://localhost:8080/getOrderTotal with the sample JSON Request given below and you should get a sample JSON Response as shown below
