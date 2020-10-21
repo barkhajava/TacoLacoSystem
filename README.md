@@ -15,7 +15,7 @@ Step 3: Run the executable JAR, using the following Java command.
 java -jar target/<your-jar-name>.jar
 
 # Testing the Service
-Using Postman call this endpoint http://localhost:8080/getOrderTotal with the sample JSON Request given below and you should get a sample JSON Response as showm below
+Using Postman call the endpoint http://localhost:8080/getOrderTotal with the sample JSON Request given below and you should get a sample JSON Response as shown below
 
 # Sample JSON Request
 
