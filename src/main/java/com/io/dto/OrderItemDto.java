@@ -3,11 +3,16 @@ package com.io.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class OrderItemDto {
-    @JsonProperty("OrderItem")
+	@JsonProperty("OrderItem")
 	private String OrderItem;
-    
-    @JsonProperty("orderQuantity")
+
+	@JsonProperty("orderQuantity")
 	private int orderQuantity;
+
+	public OrderItemDto(String orderItem, int orderQuantity) {
+		OrderItem = orderItem;
+		this.orderQuantity = orderQuantity;
+	}
 
 	public String getOrderItem() {
 		return OrderItem;
